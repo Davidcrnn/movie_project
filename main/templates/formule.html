@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="navigation">
+        <a href="{% url 'home' %} ">Accueil</a> / Tarifs et abonnements
+    </div>
+
+    <div class="header">
+        <h1>Tarifs et abonnements</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 mb-4">
+            <div class="card-container">
+                <div class="titre">
+                    <h4>Entrée simple</h4>
+                </div>
+                <div class="description">
+                    <p>Accès aux douches + bains thérapeutiques (2h)</p>
+                </div>
+                <div class="prix">
+                    <p>5€</p>
+                </div>
+                <div class="image-f">
+                    <img src="{% static '../static/main/images/f1.jpg' %}" alt="" style='height: 100px; width: 200px'>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12">
+
+        </div>
+        <div class="col-xs-12">
+
+        </div>
+        <div class="col-xs-12">
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}

@@ -5,3 +5,7 @@ from django.views.generic import TemplateView, View
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
+
+
+class FormuleView(TemplateView):
+    template_name = 'formule.html'
