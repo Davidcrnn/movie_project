@@ -13,7 +13,8 @@
   width: 85px; }
 
 .logo a {
-  color: black; }
+  color: black;
+  font-size: 25px; }
 
 a:hover {
   text-decoration: none; }
@@ -74,7 +75,8 @@ a:hover {
 .card-container {
   border: 2px dotted black;
   padding: 40px;
-  height: 250px; }
+  height: 250px;
+  width: 500px; }
 
 .display {
   justify-content: space-around;
@@ -82,7 +84,7 @@ a:hover {
   align-items: center; }
 
 .prix p {
-  color: orangered; }
+  color: black; }
 
 .titre h4 {
   font-size: 25px;
@@ -95,7 +97,7 @@ a:hover {
   justify-content: center; }
 
 .button a {
-  color: #00fd00;
+  color: white;
   padding-right: 40px; }
 
 .bg-black {
@@ -107,14 +109,14 @@ a:hover {
   align-items: center;
   padding: O 50px; }
   .bg-black label {
-    color: #00fd00; }
+    color: white; }
   .bg-black a {
     padding: 15px;
     margin-top: 40px;
-    border: 1px solid #00fd00;
-    color: #00fd00; }
+    border: 1px solid white;
+    color: white; }
   .bg-black h1 {
-    color: #00fd00;
+    color: white;
     font-family: Courier;
     text-align: center;
     font-size: 20px; }
