@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, View
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
@@ -13,3 +14,11 @@ class FormuleView(TemplateView):
 
 class DarkView(TemplateView):
     template_name = 'dark.html'
+
+
+class FormView(TemplateView):
+    template_name = 'connexion.html'
+
+
+class SuccessView(TemplateView):
+    template_name = 'success.html'

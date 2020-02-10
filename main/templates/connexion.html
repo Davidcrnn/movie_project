@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="bg-black">
+    <form action="">
+        <label for="">Identifiant</label><br>
+        <input type="text"> <br> <br>
+
+        <label for="">Motdepasse</label><br>
+        <input class='mb-4' type="password"><br>
+
+        <a href="{% url 'dark' %}">Valider</a>
+    </form>
+
+</div>
+{% endblock content %}

@@ -51,3 +51,26 @@
     padding-right: 40px;
 
 }
+
+.bg-black {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: O 50px;
+    label{
+        color: #00fd00;
+    } a {
+        padding: 15px;
+        margin-top: 40px;
+        border: 1px solid #00fd00;
+        color: #00fd00;
+    } h1 {
+        color: #00fd00;
+        font-family: Courier;
+        text-align: center;
+        font-size: 20px;
+    }
+}
