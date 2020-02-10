@@ -1,3 +1,9 @@
+@import 'navbar';
+@import 'home';
+@import 'formules';
+
 body {
-    background: red;
+    background: url('../images/bg.jpg');
+    background-size: cover;
 }
+

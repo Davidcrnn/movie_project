@@ -1,0 +1,25 @@
+// Home page Style
+
+.banner {
+    height: 80vh;
+    margin: 30px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-call {
+    position: absolute;
+    bottom: 100px;
+    right: 79px;
+    a {
+        color: black;
+        padding: 30px;
+        background: white;
+        border-radius: 20px;
+    } a:hover {
+        text-decoration: none;
+        
+    }
+}
