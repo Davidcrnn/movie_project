@@ -130,7 +130,7 @@ STATICFILES_FINDERS = [
 # Django Sass
 SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
 #  Add configuration for static files storage using whitenoise
