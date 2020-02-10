@@ -10,19 +10,6 @@
     background-color: white;
 }
 
-.logo img {
-    height: 50px;
-    width: 50px;
-    
-}
-
-.logo a {
-    color: black;
-} a:hover {
-    text-decoration: none;
-}
-
-
 .nav-links ul {
     display: flex;
     align-items: center; 
@@ -31,7 +18,5 @@
      li {
         list-style: none;
         padding-right: 20px;
-    } a {
-        color: black;
     }
 }

@@ -9,3 +9,7 @@ class HomePageView(TemplateView):
 
 class FormuleView(TemplateView):
     template_name = 'formule.html'
+
+
+class DarkView(TemplateView):
+    template_name = 'dark.html'

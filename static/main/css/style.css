@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lancelot&display=swap");
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -7,6 +8,16 @@
   border-bottom: 1px solid gray;
   background-color: white; }
 
+.logo img {
+  height: 50px;
+  width: 50px; }
+
+.logo a {
+  color: black; }
+
+a:hover {
+  text-decoration: none; }
+
 .nav-links ul {
   display: flex;
   align-items: center;
@@ -15,6 +26,8 @@
   .nav-links ul li {
     list-style: none;
     padding-right: 20px; }
+  .nav-links ul a {
+    color: black; }
 
 .banner {
   height: 80vh;
@@ -36,23 +49,58 @@
   .banner-call a:hover {
     text-decoration: none; }
 
-.container {
+.contact-photo {
+  background-image: url("../images/immeuble.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%; }
+
+.contact-container h3 {
+  text-decoration: underline; }
+
+.container-2 {
   background: white; }
 
 .navigation {
   padding: 10px;
   margin-top: 20px; }
+  .navigation a {
+    color: black; }
 
 .header {
   text-align: center;
   margin: 40px 0; }
 
 .card-container {
-  border: 2px solid black;
-  padding: 20px; }
+  border: 2px dotted black;
+  padding: 40px;
+  height: 250px; }
+
+.display {
+  justify-content: space-around;
+  display: flex;
+  align-items: center; }
+
+.prix p {
+  color: orangered; }
+
+.titre h4 {
+  font-size: 25px;
+  border-bottom: 1px solid black; }
+
+.video {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button a {
+  color: #00fd00;
+  padding-right: 40px; }
 
 body {
   background: url("../images/bg.jpg");
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'Lancelot', cursive; }
 
 /*# sourceMappingURL=style.css.map */

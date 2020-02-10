@@ -1,11 +1,15 @@
 // Formules Style
-.container {
+.container-2 {
     background: white;
 }
 .navigation {
     
     padding: 10px;
     margin-top: 20px;
+
+    a {
+        color: black;
+    }
 }
 
 .header {
@@ -14,6 +18,36 @@
 }
 
 .card-container {
-    border: 2px solid black;
-    padding: 20px;
+    border: 2px dotted black;
+    padding: 40px;
+    height: 250px;
+}
+
+.display {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.prix p {
+    color: orangered;
+}
+
+
+.titre h4 {
+    font-size: 25px;
+    border-bottom : 1px solid black;
+}
+
+.video {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    color:#00fd00;
+    padding-right: 40px;
+
 }
